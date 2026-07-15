@@ -223,6 +223,5 @@ async def photo_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
 
-    if not BOT_TOKEN
-
+    if not BOT_TOKEN:
 
