@@ -116,6 +116,7 @@ async def chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await waiting.edit_text(
             f"❌ Xatolik:\n{e}"
         )
+
 def main():
     if not BOT_TOKEN:
         raise ValueError(
